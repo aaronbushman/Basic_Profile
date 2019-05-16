@@ -50,7 +50,7 @@ div.top {
     height: auto;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
     color: darkslategray;
     background: white;
     padding: 25px;
@@ -73,15 +73,17 @@ div.bottom {
     border: 15px teal;
     padding: 0;
     margin: 0;
-    background: rgba(26, 25, 25, 0.596);
+    background: darkslategrey;
     position: fixed;
     bottom: 0;
-    left: 0;  
+    left: 0;
+    z-index: 1;
 }
 
 div.bar {
     height: 8px;
-    width: 100%;
+    width: 110%;
+    margin-left: -15px;
     background: teal;
     position: fixed;
     bottom: 70px;
