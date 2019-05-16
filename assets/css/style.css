@@ -12,7 +12,27 @@ body {
     font-size: 30px;
     color: white;
     height: 70px;
-    margin: 10px;
+    width: 265px;
+    margin-top: -10px;
     text-align: center;
     padding: 20px;
+    border: 0;
+    position: relative;
+    float: unset; 
+    display: flex;
+    align-items: center;
+}
+
+section.headingbar {
+    background: white;
+    height: 70px;
+    width: 100%;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#headerboxcenter {
+    background: white;
+    width: 960px;
+    height: 70px;
 }
