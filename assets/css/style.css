@@ -3,7 +3,8 @@
   }
   
 body {
-    background: lightgray;
+    background-image: url("/Basic_Profile/assets/images/background.gif");
+    background-color: whitesmoke;
 }
 
 #name {
@@ -144,4 +145,4 @@ input[type=submit] {
     cursor: pointer;
   }
 
-  
+  a {}
