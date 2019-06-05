@@ -110,6 +110,7 @@ div.bar {
     margin: 25px;
     position: relative;
     display: inline-block;
+    color: white;
 }
 
 .imgtext {
